@@ -1,3 +1,4 @@
+
 /**
  * swap_int - swaps the values of two integers
  * using two input parameters
@@ -9,9 +10,8 @@
 void swap_int(int *a, int *b)
 
 {
-	int temp;
-	temp = *a;
-	*a = *b;
-	*b = temp;
-
+  int temp;
+temp = *a;
+*a = *b;
+*b = temp;
 }
