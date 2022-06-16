@@ -1,3 +1,6 @@
+#include "main.h"
+#include <string.c>
+
 /**
  *  _strcat -> this is a function strcat
  *   @ dest : first param
@@ -6,13 +9,9 @@
  */
 char * _strcat ( char *dest , char * src )
 {
-	int len = 0 , i ;
-	while ( dest [ len ] )
-		len ++ ;
-	
-	for ( i = 0 ; src [ i ] ! = ' \ 0 ' ; i ++ )
-	{ 
-		dest [ len ] = src [ i ] ;
-		len += 1 ;
-	}
+
+	strcat ( dest , src ) ;
+	dest [len] = ' \ 0 ' ;
+	return ( dest ) ;
+
 }
